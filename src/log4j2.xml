@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration monitorInterval="30" status="warn">
+  <!-- monitorInterval: automatic reload every 30sec on changes -->
+  <!-- status: log4j2 internal logging (not for the app) -->
+  <Appenders>
+    <Console name="appender-console-all" target="SYSTEM_OUT">
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+    </Console>
+  </Appenders>
+
+  <Loggers>
+    <Root level="WARN">
+      <AppenderRef ref="appender-console-all" />
+    </Root>
+  </Loggers>
+</Configuration>
