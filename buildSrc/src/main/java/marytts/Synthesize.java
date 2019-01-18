@@ -15,9 +15,9 @@ import marytts.runutils.Mary;
 import marytts.runutils.Request;
 
 /**
+ *  Class example to call marytts
  *
- *
- * @author <a href="mailto:lemagues@tcd.ie">Sébastien Le Maguer</a>
+ *  @author <a href="mailto:lemagues@tcd.ie">Sébastien Le Maguer</a>
  */
 public class Synthesize
 {
